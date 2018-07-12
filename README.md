@@ -10,6 +10,9 @@ jsFiddle example for [basic usage](https://jsfiddle.net/miso25/75z2Ljyd/)
 # Basic Usage AJAX data loading with Change event
 Basic Usage AJAX data loading with Change event on the original element. jsFiddle example for [basic usage](https://jsfiddle.net/miso25/d1g5rch7/)
 
+# Optgroups single and multiple selection
+Basic Usage of single and multiple selection for SELECT element optgroups  [jsFiddle](https://jsfiddle.net/miso25/p9xwecro/)
+
 # Options
 A complete listing of all options applicable for this plugin.
 
@@ -40,3 +43,4 @@ $('.seleqt').seleqt()
 $('.seleqt').on('change', function(){
 	alert('changed to option ID: ' + $(this).val() )
 })
+
