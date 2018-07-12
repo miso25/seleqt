@@ -2789,7 +2789,8 @@
 					
 					res += "<div class='search_info'>"
 					res += "<span class='count_items'></span> "
-					res += "<span class='search_text'>"+this.lang.textSearching()+"</span> "
+					
+					//res += "<span class='search_text'>"+this.lang.textSearching()+"</span> "
 					
 					
 					if(this.multiple)
