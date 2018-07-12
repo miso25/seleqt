@@ -366,7 +366,7 @@
 			textDeselectAll: function () { return "Cancel all selected"; },
 			textSelectAllInGroup: function () { return "Select all in group"; },
 			textCancelSelection: function () { return "Cancel selected item"; },
-			textLoading: function () { return "Loading items…"; },
+			textLoading: function () { return "Loading itemsâ€¦"; },
 			textLoadMore: function () { return "Load more"; },
 			textListEnd: function () { return "End of the list"; },
 			
@@ -374,7 +374,7 @@
 			textInputTooLong: function (max) { var str = "The searching string can only have "+max+" character"; if(max > 1)str += 's'; return str; },
 			textNotClassified: function () { return "Not classified"; },
 			textNoMatches: function () { return "No matches found"; },
-			textSearching: function () { return "Searching…"; },
+			textSearching: function () { return "Searchingâ€¦"; },
 			textSelectionTooBig: function (limit) { return "You can only select " + limit + " item" + (limit == 1 ? "" : "s"); },
 			//textSelectResult: function () { return "Select from the list..."; },
 			textSelectResult: function () { return lang['click_to_select_option']; },
@@ -427,7 +427,7 @@
 			// or, set the global default message:
 			// Plugin.defaults.message = 'Goodbye World!'
 			
-			//if( $.isSubstring("hello world", "world")) ) // true;​​​​​​​​​​​
+			//if( $.isSubstring("hello world", "world")) ) // true;â€‹â€‹â€‹â€‹â€‹â€‹â€‹â€‹â€‹â€‹â€‹
 			//alert(1)
 
 			this._transformElement();
@@ -652,7 +652,7 @@
 			//alert(selected)
 			items += this._initSelection( selected, attr_name )
 			
-			// ◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►◄►
+			// â—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–ºâ—„â–º
 			
 			
 			
@@ -2789,9 +2789,7 @@
 					
 					res += "<div class='search_info'>"
 					res += "<span class='count_items'></span> "
-					
 					res += "<span class='search_text'>"+this.lang.textSearching()+"</span> "
-					//res += "<span class='search_text'></span> "
 					
 					
 					if(this.multiple)
