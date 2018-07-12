@@ -366,7 +366,7 @@
 			textDeselectAll: function () { return "Cancel all selected"; },
 			textSelectAllInGroup: function () { return "Select all in group"; },
 			textCancelSelection: function () { return "Cancel selected item"; },
-			textLoading: function () { return "Loading items…"; },
+			textLoading: function () { return "Loading items..."; },
 			textLoadMore: function () { return "Load more"; },
 			textListEnd: function () { return "End of the list"; },
 			
@@ -374,7 +374,7 @@
 			textInputTooLong: function (max) { var str = "The searching string can only have "+max+" character"; if(max > 1)str += 's'; return str; },
 			textNotClassified: function () { return "Not classified"; },
 			textNoMatches: function () { return "No matches found"; },
-			textSearching: function () { return "Searching…"; },
+			textSearching: function () { return "Searching..."; },
 			textSelectionTooBig: function (limit) { return "You can only select " + limit + " item" + (limit == 1 ? "" : "s"); },
 			//textSelectResult: function () { return "Select from the list..."; },
 			textSelectResult: function () { return lang['click_to_select_option']; },
