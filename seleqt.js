@@ -376,8 +376,8 @@
 			textNoMatches: function () { return "No matches found"; },
 			textSearching: function () { return "Searching..."; },
 			textSelectionTooBig: function (limit) { return "You can only select " + limit + " item" + (limit == 1 ? "" : "s"); },
-			//textSelectResult: function () { return "Select from the list..."; },
-			textSelectResult: function () { return lang['click_to_select_option']; },
+			textSelectResult: function () { return "Select from the list..."; },
+			//textSelectResult: function () { return lang['click_to_select_option']; },
 			textResultsToSelect: function (limit) {
 				if (limit == 1) {
 					return "item to select";
