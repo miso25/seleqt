@@ -7,3 +7,5 @@ This plugin requires the latest version of [jQuery](http://jquery.com/).
 # Basic Usage
 jsFiddle example for [basic usage](https://jsfiddle.net/miso25/75z2Ljyd/59/)
 
+# Another Usage
+jsFiddle example for [basic usage](https://jsfiddle.net/miso25/d1g5rch7/5/)
