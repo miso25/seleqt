@@ -1,0 +1,16 @@
+
+{
+  "data" :
+  { "results": [
+    {"id":"1","text":"Slovakia"},
+    {"id":"2","text":"Czech Republic"},
+    {"id":"3","text":"Austria"},
+    {"id":"3","text":"Germany"},
+    {"id":"3","text":"Poland"},
+    {"id":"3","text":"Hungary"},
+    {"id":"3","text":"Croatia"},
+    {"id":"3","text":"Denmark"}
+    ]
+  }
+  
+}
