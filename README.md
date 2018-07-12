@@ -1,5 +1,5 @@
 # seleqt
-jquery Plugin for HTML select element replacement with search and optgroup support
+jquery Plugin for HTML select element replacement with search and optgroup support. Minified version cca 30 kB
 
 # Requirements:
 This plugin requires the latest version of [jQuery](http://jquery.com/).
