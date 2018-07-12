@@ -380,11 +380,11 @@
 			textSelectResult: function () { return lang['click_to_select_option']; },
 			textResultsToSelect: function (limit) {
 				if (limit == 1) {
-					//return "item to select";
-					return lang['items'];
+					return "item to select";
+					//return lang['items'];
 				} else {
-					//return "items to select";
-					return lang['items'];
+					return "items to select";
+					//return lang['items'];
 				}
 			}
 		},
